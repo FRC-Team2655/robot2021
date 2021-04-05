@@ -1,0 +1,4 @@
+See file:///C:/Users/Existing/Documents/Robotics/robot2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling RobotMap.cpp successful.
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///C:/Users/Existing/Documents/Robotics/robot2020/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
