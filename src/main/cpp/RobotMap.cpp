@@ -7,27 +7,27 @@
 
 #include "RobotMap.h"
 
-#if COMPBOT
-const int LMaster = 1;
-const int LSlave1 = 2;
-const int LSlave2 = 3;
+#if PRACTICEBOT
+const int LMaster = 6;
+const int LSlave1 = 5;
+const int LSlave2 = 4;
 
-const int RMaster = 6;
-const int RSlave1 = 5;
-const int RSlave2 = 4;
+const int RMaster = 1;
+const int RSlave1 = 2;
+const int RSlave2 = 3;
 
 const int Shooter1ID = 7;
 const int Shooter2ID = 8;
 
 const int IntakeArm = 11;
 
-const int KickerID = 12;
+const int KickerID = 14; //12;
 
-const int BeltLeft = 15;
-const int BeltRight = 14;
+const int SideBelts = 12; //15;
+//const int BeltRight = 14;
 const int BeltBottom = 13;
 
-const int RollerShooters = 16;
+const int RollerShooters = 15; //16;
 
 const int ClimbMotor1 = 9;
 const int ClimbMotor2 = 10;
@@ -43,15 +43,15 @@ const int RSlave2 = 4;
 const int Shooter1ID = 7;
 const int Shooter2ID = 8;
 
-const int IntakeArm = 9;
+const int IntakeArm = 11;
 
-const int KickerID = 13;
+const int KickerID = 12;
 
-const int BeltLeft = 10;
-const int BeltRight = 11;
-const int BeltBottom = 12;
+const int BeltLeft = 14;
+const int BeltRight = 15;
+const int BeltBottom = 13;
 
-const int RollerShooters = 14;
+const int RollerShooters = 16;
 #endif
 
 
@@ -79,17 +79,17 @@ const double bottomBeltSpeed = 0.7;
 
 const double DriveRampRate = 0.23;  // Minimum time (sec) to go from 0 to full
 
-#if COMPBOT
+#if PRACTICEBOT
 const int LEncA = 0;
 const int LEncB = 1;
 const int REncA = 2;
 const int REncB = 3;
 const int IntakePWM = 4;
-const int LEDPWMPort = 9;
+const int LEDPWMPort = 3;
 
-const int proximitySensorTopChannel = 7;
+const int proximitySensorTopChannel = 9;
 const int proximitySensorMiddleChannel = 8;
-const int proximitySensorBottomChannel = 9;
+const int proximitySensorBottomChannel = 7;
 #else
 const int LEncA = 5;
 const int LEncB = 0;
@@ -99,8 +99,8 @@ const int IntakePWM = 4;
 const int LEDPWMPort = 9;
 
 const int proximitySensorTopChannel = 7;
-const int proximitySensorMiddleChannel = 9;
-const int proximitySensorBottomChannel = 8;
+const int proximitySensorMiddleChannel = 8;
+const int proximitySensorBottomChannel = 9;
 #endif
 
 const double incrementShooterSpeed = 0.05;

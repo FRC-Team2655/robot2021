@@ -18,10 +18,27 @@ void DriveJoystickCommand::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void DriveJoystickCommand::Execute() {
-  double power = -1 * jshelper::getAxisValue(Robot::oi.driveAxisConfig, Robot::oi.js0->GetRawAxis(1));
-	double rotate = .4 * jshelper::getAxisValue(Robot::oi.rotateAxisConfig, Robot::oi.js0->GetRawAxis(2));
+  #if MITHOONDRIVE
+  double rawForward = (Robot::oi.js0->GetRawAxis(3) + 1) / 2;
+  double rawBackward = (Robot::oi.js0->GetRawAxis(4) + 1) / 2;
+  double deadband = 0.1;
+  double driveDirection;
+
+  if (rawForward > deadband && rawBackward > deadband) driveDirection = 0;
+  else if (rawForward > deadband) driveDirection = rawForward;
+  else if (rawBackward > deadband) driveDirection = -rawBackward;
+
+
+  double rotate = -0.5 * jshelper::getAxisValue(Robot::oi.rotateAxisConfig, Robot::oi.js0->GetRawAxis(0));
+  double power = jshelper::getAxisValue(Robot::oi.driveAxisConfig, driveDirection);
 
 	Robot::driveBase.driveVelocity(power, rotate);
+
+  #else
+
+  double power = jshelper::getAxisValue(Robot::oi.driveAxisConfig, Robot::oi.js0->GetRawAxis(1));
+	double rotate = -0.4 * jshelper::getAxisValue(Robot::oi.rotateAxisConfig, Robot::oi.js0->GetRawAxis(2));
+  #endif
 }
 
 // Called once the command ends or is interrupted.

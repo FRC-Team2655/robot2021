@@ -5,11 +5,7 @@ using IdleMode = rev::CANSparkMax::IdleMode;
 using NeutralMode = ctre::phoenix::motorcontrol::NeutralMode;
 
 ShooterSubsystem::ShooterSubsystem() {
-    #if COMPBOT
     shooter1.SetInverted(true);
-    #else
-    shooter1.SetInverted(false);
-    #endif
     shooter2.Follow(shooter1, true);
 
     shooter1.SetSmartCurrentLimit(65);
@@ -27,10 +23,10 @@ ShooterSubsystem::ShooterSubsystem() {
 }
 
 void ShooterSubsystem::Periodic() {
-    if ((getRPM() <= ShooterVelocity) && (getRPM() <= 0)) {
+    if ((getRPM() <= ShooterVelocity) && (getRPM() <= 50)) {
         isShooterAtMax = false;
         isShooterRunning = false;
-    }else if ((getRPM() <= ShooterVelocity) && (getRPM() > 0)) {
+    }else if ((getRPM() <= ShooterVelocity) && (getRPM() > 50)) {
         isShooterAtMax = false;
         isShooterRunning = true;
     }else{

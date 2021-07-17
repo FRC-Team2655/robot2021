@@ -271,10 +271,10 @@ void Robot::AutonomousInit() {
 void Robot::AutonomousPeriodic() {
     if (intake.isIntakeLocked) {
         intake.setLockPID();
-        std::cout << "Locked in" << std::endl;
+        //std::cout << "Locked in" << std::endl;
     }else if (intake.isIntakeOut) {
         intake.setLockDownPID();
-        std::cout << "Locked out" << std::endl;
+        //std::cout << "Locked out" << std::endl;
     }
 }
 
@@ -291,18 +291,19 @@ void Robot::TeleopInit() {
  * This function is called periodically during operator control.
  */
 void Robot::TeleopPeriodic() {
-    //driveBase.rightMaster.Set(1);
-    //driveBase.rightSlave1.Set(1);
-    //driveBase.leftSlave2.Set(1);
+
+    std::cout << leds.getLEDColor() << std::endl;
+
+    //std::cout << "Raw: " << oi.js0->GetRawAxis(4) << std::endl;
+    //std::cout << "Scaled: " << jshelper::getAxisValue(oi.driveAxisConfig, oi.js0->GetRawAxis(4)) << std::endl;
 
     if (intake.isIntakeLocked) {
         intake.setLockPID();
-        std::cout << "Locked in" << std::endl;
+        //std::cout << "Locked in" << std::endl;
     }else if (intake.isIntakeOut) {
         intake.setLockDownPID();
-        std::cout << "Locked out" << std::endl;
+        //std::cout << "Locked out" << std::endl;
     }
-
 
     ////////LED Control//////////////
 
@@ -337,7 +338,7 @@ void Robot::TeleopPeriodic() {
         }
     }
 
-    std::cout << "Intake out: " << intake.isIntakeOut << std::endl;
+    //std::cout << "Intake out: " << intake.isIntakeOut << std::endl;
 }
 
 /**
