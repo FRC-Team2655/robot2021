@@ -215,7 +215,7 @@ void Robot::DisabledPeriodic() {
 void Robot::AutonomousInit() {
 
     /* Put drive base in brake mode for auto*/
-    driveBase.setBrakeMode();
+    driveBase.setCoastMode();
     /* Zero the intake encoder */
     intake.updateOffset();
     /* Start applying lock PID */

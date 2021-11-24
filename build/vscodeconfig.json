@@ -40,7 +40,7 @@
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6b0b73ad7efdc0eb77b61f28a4a2a755\\cameraserver-cpp-2021.2.2-headers\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6872e27a17984b53ca3e71ff070eabb7\\cscore-cpp-2021.2.2-headers\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
-      "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\",
+      "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\4e8cb968f5c30a702a8653424303307b\\wpilibNewCommands-cpp-2021.2.2-sources\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6b98980c0e4fddb3c9aec0f854e733ea\\wpilibc-cpp-2021.2.2-sources\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\3d7e84ca3eb43131d0fbcff6cc2ab0c4\\ntcore-cpp-2021.2.2-sources\\",
@@ -89,7 +89,7 @@
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6b0b73ad7efdc0eb77b61f28a4a2a755\\cameraserver-cpp-2021.2.2-headers\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6872e27a17984b53ca3e71ff070eabb7\\cscore-cpp-2021.2.2-headers\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
-      "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\"
+      "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\"
     ],
     "binaries": [
       {
@@ -98,7 +98,7 @@
           {
             "source": {
               "srcDirs": [
-                "C:\\Users\\Team\\Documents\\temp\\src\\main\\cpp\\"
+                "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\cpp\\"
               ],
               "includes": [
                 "**/*.cpp",
@@ -108,7 +108,7 @@
             },
             "exportedHeaders": {
               "srcDirs": [
-                "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\"
+                "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\"
               ],
               "includes": [
                 "**/*.cpp",
@@ -162,7 +162,7 @@
           "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6b0b73ad7efdc0eb77b61f28a4a2a755\\cameraserver-cpp-2021.2.2-headers\\",
           "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6872e27a17984b53ca3e71ff070eabb7\\cscore-cpp-2021.2.2-headers\\",
           "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
-          "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\"
+          "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\"
         ],
         "sharedLibrary": false,
         "executable": true
@@ -172,7 +172,7 @@
       {
         "source": {
           "srcDirs": [
-            "C:\\Users\\Team\\Documents\\temp\\src\\main\\cpp\\"
+            "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\cpp\\"
           ],
           "includes": [
             "**/*.cpp",
@@ -204,7 +204,7 @@
       {
         "source": {
           "srcDirs": [
-            "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\"
+            "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\"
           ],
           "includes": [
             "**/*.cpp",
@@ -279,7 +279,7 @@
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6b0b73ad7efdc0eb77b61f28a4a2a755\\cameraserver-cpp-2021.2.2-headers\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6872e27a17984b53ca3e71ff070eabb7\\cscore-cpp-2021.2.2-headers\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
-      "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\",
+      "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\4e8cb968f5c30a702a8653424303307b\\wpilibNewCommands-cpp-2021.2.2-sources\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6b98980c0e4fddb3c9aec0f854e733ea\\wpilibc-cpp-2021.2.2-sources\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\3d7e84ca3eb43131d0fbcff6cc2ab0c4\\ntcore-cpp-2021.2.2-sources\\",
@@ -328,7 +328,7 @@
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6b0b73ad7efdc0eb77b61f28a4a2a755\\cameraserver-cpp-2021.2.2-headers\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6872e27a17984b53ca3e71ff070eabb7\\cscore-cpp-2021.2.2-headers\\",
       "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
-      "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\"
+      "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\"
     ],
     "binaries": [
       {
@@ -337,7 +337,7 @@
           {
             "source": {
               "srcDirs": [
-                "C:\\Users\\Team\\Documents\\temp\\src\\main\\cpp\\"
+                "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\cpp\\"
               ],
               "includes": [
                 "**/*.cpp",
@@ -347,7 +347,7 @@
             },
             "exportedHeaders": {
               "srcDirs": [
-                "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\"
+                "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\"
               ],
               "includes": [
                 "**/*.cpp",
@@ -400,7 +400,7 @@
           "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6b0b73ad7efdc0eb77b61f28a4a2a755\\cameraserver-cpp-2021.2.2-headers\\",
           "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\6872e27a17984b53ca3e71ff070eabb7\\cscore-cpp-2021.2.2-headers\\",
           "C:\\Users\\Team\\.gradle\\caches\\transforms-2\\files-2.1\\67a79c1c661a84cbc99042d108434bbc\\opencv-cpp-3.4.7-5-headers\\",
-          "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\"
+          "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\"
         ],
         "sharedLibrary": false,
         "executable": true
@@ -410,7 +410,7 @@
       {
         "source": {
           "srcDirs": [
-            "C:\\Users\\Team\\Documents\\temp\\src\\main\\cpp\\"
+            "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\cpp\\"
           ],
           "includes": [
             "**/*.cpp",
@@ -441,7 +441,7 @@
       {
         "source": {
           "srcDirs": [
-            "C:\\Users\\Team\\Documents\\temp\\src\\main\\include\\"
+            "C:\\Users\\Team\\Documents\\robot2021\\src\\main\\include\\"
           ],
           "includes": [
             "**/*.cpp",

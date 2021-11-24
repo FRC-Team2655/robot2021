@@ -88,6 +88,7 @@ frc2::Command* AutonomousRoutines::ShootPreloads(double goalOffsetMeters, double
 
     if(pickupFromTrench)
     {
+
         /* Back up -2 meters */
         routine->AddCommands(DriveDistanceCommand(-1.5));
 
@@ -135,12 +136,12 @@ frc2::Command* AutonomousRoutines::TestAuto(double distanceMeters, double turnDe
 
     /* Add any sub commands */
     DriveDistanceCommand driveDist(distanceMeters);
-    driveDist.P_encoders = driveDistance_P_encoder;
-    driveDist.P_gyro = driveDistance_P_gyro;
+    //driveDist.P_encoders = driveDistance_P_encoder;
+    //driveDist.P_gyro = driveDistance_P_gyro;
     routine->AddCommands(driveDist);
 
     RotateDegreesCommand rot(turnDegrees);
-    rot.P_gyro = rotate_P_gyro;
+    //rot.P_gyro = rotate_P_gyro;
     routine->AddCommands(rot);
 
     return routine;

@@ -98,11 +98,11 @@ void RotateDegreesCommand::Execute() {
   /* Apply the current speed value to motors */
   if(turnRight)
   {
-    Robot::driveBase.driveTankPercentage(currentSpeed, -currentSpeed);
+    Robot::driveBase.driveTankPercentage(-currentSpeed, currentSpeed);
   }
   else
   {
-    Robot::driveBase.driveTankPercentage(-currentSpeed, currentSpeed);
+    Robot::driveBase.driveTankPercentage(currentSpeed, -currentSpeed);
   }
 }
 

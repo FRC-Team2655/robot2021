@@ -14,7 +14,7 @@
 
 DriveDistanceCommand::DriveDistanceCommand(double distance) : distance(distance) {
   AddRequirements(&Robot::driveBase);
-  maxSpeed = 2500;
+  maxSpeed = 1500;
 }
 
 // Called when the command is initially scheduled.
@@ -103,11 +103,13 @@ void DriveDistanceCommand::Execute() {
 
   /* Apply to drive base (update velocity set point) */
   if(goingForward)
-      Robot::driveBase.driveTankVelocity(leftSpeed, rightSpeed);
-  else
       Robot::driveBase.driveTankVelocity(-leftSpeed, -rightSpeed);
+  else
+      Robot::driveBase.driveTankVelocity(leftSpeed, rightSpeed);
 
-  std::cout << "Left: " << leftSpeed << ", " << "Right: " << rightSpeed << ", " << "Gyro Error: " << gyroError << std::endl;
+  //std::cout << "Left: " << leftSpeed << ", " << "Right: " << rightSpeed << ", " << "Gyro Error: " << gyroError << std::endl;
+  std::cout << "Left: " << Robot::driveBase.getLeftEncoderRotations() << ", Right: " << Robot::driveBase.getRightEncoderRotations() << ", Current Distance: " << currentDistance
+  << ", Gyro Error:" << gyroError << std::endl;
 }
 
 // Called once the command ends or is interrupted.
